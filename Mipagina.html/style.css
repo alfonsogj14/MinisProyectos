@@ -1,0 +1,85 @@
+#header {
+    background-color:rgb(159, 183, 192);
+    color: white;
+    padding: 10px 20px;
+
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+
+}
+
+#header ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#header li {
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+#content {
+    padding: 20px;
+}
+
+#header ul a {
+    color: rgb(243, 241, 241);
+    text-decoration: none;
+
+}
+
+#header ul a:hover {
+    color: rgb(41, 94, 138);
+}
+
+.sobremi {
+    padding: 0px;
+}
+.two-columns img, .two-columns p {
+    float:left;
+    width: 40%;
+}
+
+.two-columns p {
+    margin: 0 20px;
+}
+
+
+#content form {
+clear: both;
+}
+#content form [type=text], #content form [type=email], #content form textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(224, 232, 238);
+}
+
+
+span {
+color: rgb(15, 33, 110);
+display: block;
+font-family: monospace;
+white-space: nowrap;
+border-right: 4px solid;
+width: 39ch;
+animation: typing 5s steps(39),
+blink .5s infinite step-end alternate;
+overflow: hidden; 
+margin: auto;
+
+}
+
+@keyframes typing {
+    from { width: 0}
+
+}
+
+@keyframes blink {
+    50% { border-color:  transparent}
+}
