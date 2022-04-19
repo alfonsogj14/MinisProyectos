@@ -1,5 +1,5 @@
 
-*Alfonso García Jorge* <img src= "https://user-images.githubusercontent.com/91060831/140652925-4b1b7c5e-f5a4-49a7-99c8-c1b989fbf044.png" width="150" height="110"/>
+*Alfonso García Jorge* 
 
 # Mis minis proyectos
 
