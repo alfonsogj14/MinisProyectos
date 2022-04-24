@@ -2,55 +2,58 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" type="img/png" href="Logo2.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>AlfonsoGJ</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="img/png" href="Logo2.png" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>AlfonsoGJ</title>
 </head>
 
-<body>
-<<<<<<< HEAD
-  <div id="header" class="animate__animated animate__backInDown">
-    <span>¡Hola Mundo! Bienvenido a mi página web</span>
-  </div>
-  <div id="header" class="animate__animated animate__bounceInUp">
-    <ul>
-      <li><a href="inicio.html">Inicio</a></li>
-      <li><a href="sobreMi.html">Sobre mi</a></li>
-      <li><a href="contactame.html">Contáctame</a></li>
-    </ul>
-  </div>
-  <div id="content" class="animate__animated animate__fadeInDownBig">
-    <img id="logo" src="Logo.png" width="400">
-    <p id="texto"> Sobre mí:
-      Estudiando del ciclo Superior en Desarrollo de Aplicaciones Multiplataforma
-    </p>
-
-  </div>
-  
-=======
+<body class="animated-background">
+  <div id="pagina">
     <div id="header" class="animate__animated animate__backInDown">
-        <span>¡Hola Mundo! Bienvenido a mi página web</span>
+      <span>¡Hola Mundo! Bienvenido a mi página web</span>
     </div>
-    <div id="header" class="animate__animated animate__bounceInUp">
-        <ul>
-            <li><a href="inicio.html">Inicio</a></li>
-            <li><a href="sobreMi.html">Sobre mi</a></li>
-            <li><a href="contactame.html">Contáctame</a></li>
-        </ul>
+      <nav class="navbar container">
+        <a href="#" class="logo">LOGO</a>
+        <!-- The order that we place the checkbox and label here is important because we will use css only for the click event to open the menu on mobile. -->
+        <input type="checkbox" id="toggler">
+        <label for="toggler"><i class="ri-menu-line"></i></label>
+        <div class="menu">
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div id="content">
+      <table style="border: hidden">
+        <tbody style="border: hidden">
+          <tr style="border: hidden">
+            <td style="border: hidden" class="animate__animated animate__backInLeft"><img id="logo" src="Logo.png"
+                width="400"></td>
+            <td style="border: hidden" id="texto" class="animate__animated animate__backInRight">Sobre mi</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <div id="content" class="animate__animated animate__fadeInDownBig">
-        <table style="border: hidden">
-            <tbody style="border: hidden">
-                <tr style="border: hidden">
-                    <td style="border: hidden"><img id="logo" src="Logo.png" width="400"></td>
-                    <td style="border: hidden">Sobre mi</td>
-                </tr>
-            </tbody>
-        </table>
+    <div>
+      <input type="button" value="Click me">
     </div>
->>>>>>> a5a1a072c5f9dbcb7ea51a1b07d8b2872ccb8feb
+    <br>
+    <br>
+    <br>
+    <div class="icons-wrapper">
+      <i class="ri-instagram-line icon"></i>
+      <i class="ri-facebook-circle-line icon"></i>
+      <i class="ri-github-line icon"></i>
+      <i class="ri-twitter-line icon"></i>
+      <i class="ri-mail-line icon"></i>
+    </div>
+  </div>
 </body>
 
 </html>
