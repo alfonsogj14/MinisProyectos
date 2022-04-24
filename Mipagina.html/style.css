@@ -86,3 +86,8 @@ margin: auto;
 #content #logo{
     padding: 7%;
 }
+#content #texto{
+    padding: 7%;
+    display: inline-block;
+    vertical-align: top;
+}
