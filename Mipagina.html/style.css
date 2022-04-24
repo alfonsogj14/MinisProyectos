@@ -1,14 +1,12 @@
-#header {
-    background-color:rgb(159, 183, 192);
+ #header {
     color: white;
-    padding: 10px 20px;
-
+    padding: 30px 20px;
 }
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
 
+body {
+    background-image: linear-gradient(to bottom, #2121b9, #0054d1, #0074d4, #008fc9, #00a6bd, #0fb3bb, #32bfb7, #53cbaf, #54d3ae, #57daac, #5de2a8, #65e9a4);    
+    background-attachment: fixed;
 }
 
 #header ul {
@@ -62,13 +60,14 @@ clear: both;
 
 
 span {
-color: rgb(15, 33, 110);
+color: rgb(216, 219, 231);
 display: block;
 font-family: monospace;
+font-size: large;
 white-space: nowrap;
 border-right: 4px solid;
 width: 39ch;
-animation: typing 5s steps(39),
+animation: typing 8s steps(39),
 blink .5s infinite step-end alternate;
 overflow: hidden; 
 margin: auto;
@@ -82,4 +81,8 @@ margin: auto;
 
 @keyframes blink {
     50% { border-color:  transparent}
+}
+
+#content #logo{
+    padding: 7%;
 }
