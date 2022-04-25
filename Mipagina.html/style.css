@@ -17,7 +17,7 @@ body{
 }
 /* ======================== */
 .container{
-    max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
+    max-width: auto; /*Limits the width of the container but let's it get smaller if needed.*/
     margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
     padding: 12px;
 }
@@ -159,7 +159,7 @@ font-family: Quicksand;
 font-size: large;
 white-space: nowrap;
 border-right: 4px solid;
-width: 39ch;
+width: 33ch;
 animation: typing 8s steps(39),
 blink .5s infinite step-end alternate;
 overflow: hidden; 
