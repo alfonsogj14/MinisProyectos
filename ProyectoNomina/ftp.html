@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTP - Fijo Tiempo Parcial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FTP (Fijo Tiempo Parcial)</h1>
+        <label for="nivelFTP">Seleccione el nivel:</label>
+        <select id="nivelFTP" onchange="calcularSalarioFTP()">
+            <option value="1">Nivel 1 - 1292.12 euros</option>
+            <option value="2">Nivel 2 - 1531.63 euros</option>
+            <option value="3">Nivel 3 - 1576.21 euros</option>
+            <option value="4">Nivel 4 - 1607.74 euros</option>
+            <option value="5">Nivel 5 - 1639.26 euros</option>
+            <option value="6">Nivel 6 - 1704.83 euros</option>
+            <option value="7">Nivel 7 - 1773.02 euros</option>
+        </select>
+        <label for="horasTrabajadas">Horas trabajadas:</label>
+        <input type="number" id="horasTrabajadas" min="0" onchange="calcularSalarioFTP()">
+        <div id="resultadoFTP">Salario base FTP: </div>
+        <button onclick="volverInicio()">Volver</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

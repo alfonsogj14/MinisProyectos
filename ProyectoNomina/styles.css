@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+#calendar {
+    margin: 20px auto;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    max-width: 600px; /* Ajustar el ancho del calendario */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.fc .fc-toolbar-title {
+    font-size: 1.5em;
+    color: #4CAF50;
+    text-transform: capitalize; /* Asegurarse de que la primera letra del mes esté en mayúscula */
+}
+
+.fc .fc-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+}
+
+.fc .fc-button:hover {
+    background-color: #45a049;
+}
+
+.fc .fc-daygrid-day-number {
+    font-size: 1.2em;
+}
+
+.fc .fc-event {
+    font-size: 1em;
+    color: white;
+    background-color: #4CAF50;
+}

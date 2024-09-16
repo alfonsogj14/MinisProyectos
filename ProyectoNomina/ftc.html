@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTC - Fijo Tiempo Completo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css' rel='stylesheet' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.min.js'></script>
+</head>
+<body>
+    <div class="container">
+        <h1>FTC (Fijo Tiempo Completo)</h1>
+        <label for="nivelFTC">Seleccione el nivel:</label>
+        <select id="nivelFTC" onchange="calcularSalarioFTC()">
+            <option value="1">Nivel 1 - 1292.12 euros</option>
+            <option value="2">Nivel 2 - 1531.63 euros</option>
+            <option value="3">Nivel 3 - 1576.21 euros</option>
+            <option value="4">Nivel 4 - 1607.74 euros</option>
+            <option value="5">Nivel 5 - 1639.26 euros</option>
+            <option value="6">Nivel 6 - 1704.83 euros</option>
+            <option value="7">Nivel 7 - 1773.02 euros</option>
+        </select>
+        <div id="resultadoFTC">Salario base FTC: </div>
+        
+        <h2>Seleccionar turnos diarios</h2>
+        <div id="calendar"></div>
+        
+        <button onclick="volverInicio()">Volver</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
